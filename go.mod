@@ -69,3 +69,5 @@ require (
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/ini.v1 v1.62.0
 )
+
+replace github.com/theupdateframework/go-tuf => github.com/asraa/go-tuf v0.0.0-20210907200056-83bc61845a43
