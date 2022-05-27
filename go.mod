@@ -3,6 +3,7 @@ module github.com/sigstore/rekor
 go 1.14
 
 require (
+	cloud.google.com/go/iam v0.3.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cavaliercoder/badio v0.0.0-20160213150051-ce5280129e9e // indirect
@@ -16,36 +17,28 @@ require (
 	github.com/go-openapi/strfmt v0.20.1
 	github.com/go-openapi/swag v0.19.14
 	github.com/go-openapi/validate v0.20.2
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.5.2
 	github.com/google/certificate-transparency-go v1.1.0 // indirect
 	github.com/google/rpmpack v0.0.0-20210107155803-d6befbf05148
 	github.com/google/trillian v1.3.13
 	github.com/jedisct1/go-minisign v0.0.0-20210106175330-e54e81d562c7
-	github.com/magiconair/properties v1.8.4 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mediocregopher/radix/v4 v4.0.0-beta.1
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/mitchellh/mapstructure v1.4.1
-	github.com/pelletier/go-toml v1.8.1 // indirect
-	github.com/prometheus/client_golang v1.10.0
+	github.com/mitchellh/mapstructure v1.5.0
+	github.com/prometheus/client_golang v1.11.1
 	github.com/rs/cors v1.7.0
-	github.com/spf13/afero v1.5.1 // indirect
-	github.com/spf13/cast v1.3.1 // indirect
 	github.com/spf13/cobra v1.1.3
-	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.7.1
+	github.com/spf13/viper v1.12.0
 	github.com/tidwall/pretty v1.0.2 // indirect
 	github.com/urfave/negroni v1.0.0
 	go.uber.org/goleak v1.1.10
-	go.uber.org/zap v1.16.0
+	go.uber.org/zap v1.17.0
 	gocloud.dev v0.22.0
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
-	golang.org/x/mod v0.4.1 // indirect
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/tools v0.1.0 // indirect
-	google.golang.org/genproto v0.0.0-20201203001206-6486ece9c497
-	google.golang.org/grpc v1.36.1
-	gopkg.in/ini.v1 v1.62.0 // indirect
+	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
+	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2
+	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
+	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd
+	google.golang.org/grpc v1.46.2
 )
