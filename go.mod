@@ -16,7 +16,7 @@ require (
 	github.com/go-openapi/strfmt v0.20.1
 	github.com/go-openapi/swag v0.19.14
 	github.com/go-openapi/validate v0.20.2
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.5.2
 	github.com/google/certificate-transparency-go v1.1.0 // indirect
 	github.com/google/rpmpack v0.0.0-20210107155803-d6befbf05148
 	github.com/google/trillian v1.3.13
@@ -40,12 +40,10 @@ require (
 	go.uber.org/goleak v1.1.10
 	go.uber.org/zap v1.16.0
 	gocloud.dev v0.22.0
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
-	golang.org/x/mod v0.4.1 // indirect
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/tools v0.1.0 // indirect
-	google.golang.org/genproto v0.0.0-20201203001206-6486ece9c497
-	google.golang.org/grpc v1.36.1
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.4.0
+	golang.org/x/sync v0.1.0
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6
+	google.golang.org/grpc v1.52.0
 	gopkg.in/ini.v1 v1.62.0 // indirect
 )
